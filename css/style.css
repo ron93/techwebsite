@@ -1,0 +1,22 @@
+article {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1,
+h2,
+h3 {
+    font-family: 'Oswald', sans-serif;
+}
+header {
+    font-family: 'Oswald', sans-serif;
+    float: none;
+}
+aside {
+    font-family: 'Sigmar One', cursive;
+    float: left;
+}
+footer {
+    font-family: 'Sigmar One', cursive;
+}
+body {
+    float: none;
+}
