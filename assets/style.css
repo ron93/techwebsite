@@ -1,0 +1,145 @@
+.group:before,
+.group:after {
+    content: "";
+    display: table;
+}
+.group:after {
+    clear: both;
+}
+.group {
+    clear: both;
+    *zoom: 1;
+}
+
+/*=================================================================
+top nav
+=====================================================================*/
+
+.top-nav {
+    height: 100px;
+    text-align: left;
+    width: 500px;
+    margin-left: 435px;
+    color: cadetblue;
+    font-family: 'Playfair Display', serif;
+    padding-top: 40px;
+}
+.top-nav .btn {
+    padding: 3px;
+    background-color: darkgray;
+    border: 1px solid darkgrey;
+    color: black;
+    border-radius: 7px;
+}
+.btn:hover {
+    color: aqua;
+}
+
+/*===================================================================
+header
+====================================================================
+*/
+
+header {
+    height: 150px;
+}
+.top {
+    background-image: url(img/ank.jpg);
+    text-align: center;
+    color: cadetblue;
+    font-size: 50px;
+    font-family: 'Droid Serif', serif;
+    background-color: black;
+}
+
+/*==================================================================
+content
+====================================================================
+*/
+
+#home {
+    background-image: url(img/black.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+.mid-nav {
+    width: 250px;
+    height: 400px;
+    padding-left: 90px;
+    padding-right: 50px;
+    border: 2px solid grey;
+    margin-left: 20px;
+}
+
+/*
+===============================================
+page 1,2,3,4 home
+===============================================
+BODY
+
+*/
+
+.in-home {
+    background-color: whitesmoke;
+}
+.teaser {
+    padding-left: 100px;
+    padding-right: 300px;
+}
+
+/*IMG*/
+
+img {
+    width: 300px;
+    height;
+    300px;
+}
+li {
+    display: inline-block;
+}
+
+/*=============================================
+i,ii
+===============================================
+*/
+
+.news {
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    border: 3px;
+    background-color: deepskyblue;
+    margin: 100px;
+    border-bottom-style: ridge;
+}
+.news h1 {
+    padding-bottom: 20px;
+}
+article {
+    color: black;
+}
+.back {
+    background-image: url(img/abstract-vector-hi-speed-internet-technology-background-illustration-innovation-57095376.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*=========================================================
+button*/
+
+.home-nav .btn {
+    padding: 5px;
+    background-color: darkgray;
+    border: 1px solid darkgrey;
+    color: black;
+    border-radius: 10px;
+}
+.bottom {
+    padding: 15px;
+    background-color: cadetblue;
+    border: 1px solid cadetblue;
+    color: black;
+    border-radius: 10px;
+}
