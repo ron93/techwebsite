@@ -58,7 +58,7 @@ content
 */
 
 #home {
-    background-image: url(img/black.jpg);
+    background-image: url(/assets/img/black.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
@@ -121,7 +121,7 @@ article {
     color: black;
 }
 .back {
-    background-image: url(img/abstract-vector-hi-speed-internet-technology-background-illustration-innovation-57095376.jpg);
+    background-image: url(/assets/img/abstract-vector-hi-speed-internet-technology-background-illustration-innovation-57095376.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
