@@ -17,9 +17,9 @@ top nav
 
 .top-nav {
     height: 100px;
-    text-align: left;
+   text-align: right;
     width: 500px;
-    margin-left: 435px;
+    margin-left: 400px;
     color: cadetblue;
     font-family: 'Playfair Display', serif;
     padding-top: 40px;
