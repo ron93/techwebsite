@@ -22,7 +22,7 @@ top nav
     margin-left: 400px;
     color: cadetblue;
     font-family: 'Playfair Display', serif;
-    padding-top: 40px;
+    padding-top: 30px;
 }
 .top-nav .btn {
     padding: 3px;
@@ -44,7 +44,7 @@ header {
     height: 150px;
 }
 .top {
-    background-image: url(img/ank.jpg);
+    background-image: url(/assets/img/ank.jpg);
     text-align: center;
     color: cadetblue;
     font-size: 50px;
@@ -66,12 +66,13 @@ content
 .mid-nav {
     width: 250px;
     height: 400px;
-    padding-left: 90px;
-    padding-right: 50px;
+    padding: 20px;
     border: 2px solid grey;
     margin-left: 20px;
 }
-
+.list{
+    padding-bottom: 30px;
+}
 /*
 ===============================================
 page 1,2,3,4 home
@@ -113,6 +114,7 @@ i,ii
     background-color: deepskyblue;
     margin: 100px;
     border-bottom-style: ridge;
+     border-radius: 10px;
 }
 .news h1 {
     padding-bottom: 20px;
@@ -125,7 +127,10 @@ article {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+#content p{
+    padding: 10px;
+   
+}
 /*=========================================================
 button*/
 
@@ -137,9 +142,25 @@ button*/
     border-radius: 10px;
 }
 .bottom {
+    margin-top: 20px;
     padding: 15px;
     background-color: cadetblue;
     border: 1px solid cadetblue;
     color: black;
     border-radius: 10px;
+}
+.btn{
+    padding-right: 50px;
+}
+
+
+/*=====FONTS====*/
+
+
+.teaser,#content,.bottom {
+     font-family: 'Playfair Display', serif;
+}
+
+#content article{
+    font-family: 'PT Sans Narrow', sans-serif;
 }
