@@ -69,9 +69,20 @@ content
     padding: 20px;
     border: 2px solid grey;
     margin-left: 20px;
+    
 }
 .list{
     padding-bottom: 30px;
+}
+a {
+    color: black;
+}
+#content .list{
+    height: 50px;
+    width: 100%;
+}
+#content .list{
+    padding-top: 20px;
 }
 /*
 ===============================================
